@@ -52,12 +52,12 @@ export default function Navbar() {
         <Link
           href="/"
           className="group flex items-center gap-2 sm:gap-3 no-underline focus-visible:outline-offset-4 flex-shrink-0 min-w-0"
-          aria-label="Studio Oral Vitta - Clínica Odontológica"
+          aria-label="Dr. Adriel Cavalcante - Studio Dental Therapy"
         >
           <div className="relative w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 flex-shrink-0 bg-paper rounded-xl shadow-md border border-[#DED6C9]/80 p-1 flex items-center justify-center transition-transform duration-300 group-hover:scale-105">
             <Image
               src="/images/logo.png"
-              alt="Studio Oral Vitta Logo"
+              alt="Dr. Adriel Cavalcante logo"
               width={56}
               height={56}
               priority
@@ -66,7 +66,7 @@ export default function Navbar() {
           </div>
           <div className="flex flex-col min-w-0">
             <span className="font-display tracking-[-0.02em] font-bold text-[#2C2925] group-hover:text-[#766E63] transition-colors leading-tight text-15 sm:text-17 md:text-18 lg:text-19 whitespace-nowrap">
-              Studio Oral Vitta
+              Dr. Adriel Cavalcante
             </span>
           </div>
         </Link>
@@ -261,7 +261,7 @@ export default function Navbar() {
                 pathname?.startsWith('/dentists') ? 'text-[#2C2925] font-semibold' : 'text-[#2C2925] hover:text-[#766E63]'
               }`}
             >
-              Our Doctor (Dr. Fernando)
+              Dr. Adriel Cavalcante
             </Link>
             <Link
               href="/emergency-dentist/"

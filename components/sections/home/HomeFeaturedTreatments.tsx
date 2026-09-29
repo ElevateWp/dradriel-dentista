@@ -21,13 +21,13 @@ export default function HomeFeaturedTreatments() {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             <AnimateOnScroll animation="fade-right" duration={0.9} className="lg:col-span-6 order-2 lg:order-1">
               <span className="font-body text-13 text-[#2C2925] uppercase tracking-wider block mb-2 font-medium">
-                Dr. Fernando • Implantes & Carga Imediata
+                Dr. Adriel Cavalcante • Cirurgia oral
               </span>
               <h3 className="font-display text-26 md:text-33 text-[#2C2925] mb-4">
                 Implantes Carga Imediata: Seu Sorriso Recuperado em 1 Dia
               </h3>
               <p className="font-body text-15 md:text-17 text-[#2C2925]/80 leading-relaxed mb-6">
-                Com a técnica de carga imediata, o Dr. Fernando restabelece dentes perdidos e a segurança do sorriso em apenas 1 dia, proporcionando agilidade, estética e recuperação rápida.
+                Com a técnica de carga imediata, o Dr. Adriel Cavalcante restabelece dentes perdidos e a segurança do sorriso em apenas 1 dia, proporcionando agilidade, estética e recuperação rápida.
               </p>
               <div className="p-4 bg-[#F1EEE8] border-l-4 border-[#2C2925] mb-6 rounded-sm">
                 <span className="font-body text-13 text-[#2C2925]/80">
@@ -42,8 +42,8 @@ export default function HomeFeaturedTreatments() {
             <AnimateOnScroll animation="fade-left" duration={0.9} className="lg:col-span-6 order-1 lg:order-2">
               <div className="relative aspect-[4/3] bg-mist overflow-hidden border border-mist shadow-sm">
                 <Image
-                  src="/images/dr-fernando.png"
-                  alt="Dr. Fernando"
+                  src="/images/dr-adriel-portrait.png"
+                  alt="Dr. Adriel Cavalcante at his clinic"
                   fill
                   sizes="(max-width: 1024px) 100vw, 50vw"
                   className="object-cover object-top"
@@ -57,8 +57,8 @@ export default function HomeFeaturedTreatments() {
             <AnimateOnScroll animation="fade-right" duration={0.9} className="lg:col-span-6">
               <div className="relative aspect-[4/3] bg-mist overflow-hidden border border-mist shadow-sm">
                 <Image
-                  src="/images/vitta-consultation-room.jpg"
-                  alt="Sala de consulta da Studio Oral Vitta"
+                  src="/images/consultation-room.jpg"
+                  alt="Sala de consulta odontológica"
                   fill
                   sizes="(max-width: 1024px) 100vw, 50vw"
                   className="object-cover"
@@ -68,13 +68,13 @@ export default function HomeFeaturedTreatments() {
 
             <AnimateOnScroll animation="fade-left" duration={0.9} className="lg:col-span-6">
               <span className="font-body text-13 text-[#2C2925] uppercase tracking-wider block mb-2 font-medium">
-                Dr. Fernando • Ortodontia & Especialidades
+                Dr. Adriel Cavalcante • Ortodontia & Especialidades
               </span>
               <h3 className="font-display text-26 md:text-33 text-[#2C2925] mb-4">
                 Aparelhos Ortodônticos e Cuidado Minucioso
               </h3>
               <p className="font-body text-15 md:text-17 text-[#2C2925]/80 leading-relaxed mb-6">
-                Planejamento ortodôntico de precisão e tratamentos restauradores conduzidos com extrema atenção e competência pelo Dr. Fernando, garantindo alinhamento e saúde bucal completa.
+                Planejamento ortodôntico de precisão e tratamentos restauradores conduzidos com extrema atenção e competência pelo Dr. Adriel Cavalcante, garantindo alinhamento e saúde bucal completa.
               </p>
               <div className="p-4 bg-[#F1EEE8] border-l-4 border-[#2C2925] mb-6 rounded-sm">
                 <span className="font-body text-13 text-[#2C2925]/80">

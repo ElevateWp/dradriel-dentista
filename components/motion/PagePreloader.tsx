@@ -113,7 +113,7 @@ export default function PagePreloader() {
       ref={containerRef}
       className="fixed inset-0 z-[99999] flex items-center justify-center bg-[#292722] text-paper overflow-hidden select-none"
       style={{ willChange: 'transform' }}
-      aria-label="Loading Studio Oral Vitta"
+      aria-label="Loading Studio Dental Therapy"
     >
       {/* Subtle Background Radial Aura */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(181,154,106,0.10)_0%,transparent_70%)] pointer-events-none" />
@@ -129,7 +129,7 @@ export default function PagePreloader() {
         >
           <Image
             src="/images/logo.png"
-            alt="Studio Oral Vitta Logo"
+            alt="Studio Dental Therapy"
             width={80}
             height={80}
             priority
@@ -156,7 +156,7 @@ export default function PagePreloader() {
           ref={subtitleRef}
           className="font-body text-12 sm:text-13 text-paper/85 uppercase tracking-[0.15em]"
         >
-          Clínica Odontológica • Floresta, Rio Branco
+          Cirurgia oral • Chapada, Manaus
         </p>
       </div>
     </div>

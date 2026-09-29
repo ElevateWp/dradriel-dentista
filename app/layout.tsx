@@ -10,17 +10,17 @@ import { generateLocalBusinessSchema } from '@/lib/seo';
 export const metadata: Metadata = {
   metadataBase: new URL('https://dentalstudiomanaus.com.br'),
   title: {
-    default: 'Studio Oral Vitta | Clínica Odontológica em Rio Branco',
-    template: '%s | Studio Oral Vitta',
+    default: 'Dr. Adriel Cavalcante | Studio Dental Therapy',
+    template: '%s | Dr. Adriel Cavalcante',
   },
   description:
-    'Studio Oral Vitta, clínica odontológica em Floresta, Rio Branco - Acre. Telefone: +55 68 98108-1266.',
+    'Dr. Adriel Cavalcante, cirurgião oral em Manaus, Amazonas. Studio Dental Therapy. Telefone: +55 92 98103-9300.',
   keywords: [
-    'Studio Oral Vitta',
-    'Clínica Odontológica Rio Branco',
-    'Dentista Floresta Rio Branco',
+    'Dr. Adriel Cavalcante',
+    'Cirurgião oral Manaus',
+    'Studio Dental Therapy',
   ],
-  authors: [{ name: 'Studio Oral Vitta' }],
+  authors: [{ name: 'Dr. Adriel Cavalcante' }],
   icons: {
     icon: [
       { url: '/images/logo.png', sizes: '32x32', type: 'image/png' },

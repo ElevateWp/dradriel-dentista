@@ -3,6 +3,64 @@ import Image from 'next/image';
 import MediaParallax from '@/components/motion/MediaParallax';
 import AnimateOnScroll from '@/components/motion/AnimateOnScroll';
 
+const clinicPhotos = [
+  {
+    src: '/images/clinic-waiting-room.jpg',
+    alt: 'Comfortable waiting area at Studio Dental Therapy',
+    label: 'Waiting Area',
+  },
+  {
+    src: '/images/clinic-exterior-manaus.jpg',
+    alt: 'Exterior of the clinic building in Manaus',
+    label: 'Clinic Location',
+  },
+  {
+    src: '/images/treatment-room.jpg',
+    alt: 'Dental treatment room with modern equipment',
+    label: 'Treatment Room',
+  },
+  {
+    src: '/images/reception-office.jpg',
+    alt: 'Reception and office area at the clinic',
+    label: 'Reception',
+  },
+  {
+    src: '/images/reception-arch.jpg',
+    alt: 'Clinic reception area with a decorative arch',
+    label: 'Reception Area',
+  },
+  {
+    src: '/images/consultation-room.jpg',
+    alt: 'Consultation room prepared for a patient visit',
+    label: 'Consultation Room',
+  },
+  {
+    src: '/images/clinic-reception.jpg',
+    alt: 'Clinic entry and reception seating',
+    label: 'Clinic Entrance',
+  },
+  {
+    src: '/images/dental-instruments.jpg',
+    alt: 'Dental instruments arranged for patient care',
+    label: 'Dental Instruments',
+  },
+  {
+    src: '/images/doctor-workspace.jpg',
+    alt: 'Dentist workspace inside the clinic',
+    label: 'Clinical Workspace',
+  },
+  {
+    src: '/images/clinic-hallway.jpg',
+    alt: 'Interior hallway at Studio Dental Therapy',
+    label: 'Clinic Hallway',
+  },
+  {
+    src: '/images/dr-adriel-portrait.png',
+    alt: 'Dr. Adriel Cavalcante at his clinic',
+    label: 'Dr. Adriel Cavalcante',
+  },
+];
+
 export default function HomeGallery() {
   return (
     <section className="relative z-20 w-full bg-paper py-20 md:py-32 border-t border-mist overflow-hidden">
@@ -12,94 +70,33 @@ export default function HomeGallery() {
             Nossa Estrutura
           </span>
           <h2 className="font-display text-33 md:text-41 text-[#2C2925]">
-            Studio Oral Vitta em Rio Branco — Floresta
+            Studio Dental Therapy em Manaus — Chapada
           </h2>
         </AnimateOnScroll>
 
-        {/* Asymmetric Grid Row 1 */}
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-6 items-stretch mb-6">
-          {/* Item 1: Dr. Fernando portrait */}
-          <AnimateOnScroll animation="fade-right" duration={0.85} className="md:col-span-5 min-h-[380px] md:min-h-[440px] relative bg-[#F1EEE8] overflow-hidden border border-[#DED6C9] shadow-sm">
-            <MediaParallax speed={0.06} className="w-full h-full">
-              <Image
-                src="/images/dr-fernando.png"
-                alt="Dr. Fernando"
-                fill
-                sizes="(max-width: 768px) 100vw, 40vw"
-                className="object-cover object-top"
-              />
-            </MediaParallax>
-            <div className="absolute bottom-3 left-3 bg-[#2C2925]/90 backdrop-blur-sm text-paper font-body text-12 px-3 py-1 font-medium">
-              Dr. Fernando
-            </div>
-          </AnimateOnScroll>
-
-          {/* Item 2: Treatment room */}
-          <AnimateOnScroll animation="fade-down" duration={0.85} className="md:col-span-7 min-h-[380px] md:min-h-[440px] relative bg-[#DED6C9] overflow-hidden border border-[#DED6C9] shadow-sm">
-            <MediaParallax speed={0.08} className="w-full h-full">
-              <Image
-                src="/images/vitta-treatment-room.png"
-                alt="Sala de tratamento odontológico da Studio Oral Vitta"
-                fill
-                sizes="(max-width: 768px) 100vw, 60vw"
-                className="object-cover"
-              />
-            </MediaParallax>
-            <div className="absolute bottom-3 left-3 bg-[#2C2925]/90 backdrop-blur-sm text-paper font-body text-12 px-3 py-1 font-medium">
-              Sala de Tratamento Odontológico
-            </div>
-          </AnimateOnScroll>
-        </div>
-
-        {/* Second Row: 3 Cards */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-          {/* Item 3: Consultation office */}
-          <AnimateOnScroll animation="zoom-in" duration={0.8} className="aspect-[4/3] relative bg-[#DED6C9] overflow-hidden border border-[#DED6C9] shadow-sm">
-            <MediaParallax speed={0.05} className="w-full h-full">
-              <Image
-                src="/images/vitta-brand-wall.jpg"
-                alt="Placa Studio Oral Vitta na recepção"
-                fill
-                sizes="(max-width: 768px) 100vw, 33vw"
-                className="object-cover"
-              />
-            </MediaParallax>
-            <div className="absolute bottom-3 left-3 bg-[#2C2925]/90 backdrop-blur-sm text-paper font-body text-12 px-3 py-1 font-medium">
-              Recepção Studio Oral Vitta
-            </div>
-          </AnimateOnScroll>
-
-          {/* Item 4: Another view of the operatory */}
-          <AnimateOnScroll animation="zoom-in" duration={0.8} delay={0.1} className="aspect-[4/3] relative bg-[#DED6C9] overflow-hidden border border-[#DED6C9] shadow-sm">
-            <MediaParallax speed={0.07} className="w-full h-full">
-              <Image
-                src="/images/vitta-consultation-room.jpg"
-                alt="Sala de consulta da Studio Oral Vitta"
-                fill
-                sizes="(max-width: 768px) 100vw, 33vw"
-                className="object-cover"
-              />
-            </MediaParallax>
-            <div className="absolute bottom-3 left-3 bg-[#2C2925]/90 backdrop-blur-sm text-paper font-body text-12 px-3 py-1 font-medium">
-              Vista do Consultório
-            </div>
-          </AnimateOnScroll>
-
-          {/* Item 5: Dr. Fernando portrait again (card) */}
-          <AnimateOnScroll animation="zoom-in" duration={0.8} delay={0.2} className="aspect-[4/3] relative bg-[#F1EEE8] overflow-hidden border border-[#DED6C9] shadow-sm sm:col-span-2 md:col-span-1">
-            <MediaParallax speed={0.06} className="w-full h-full">
-              <Image
-                src="/images/vitta-treatment-angle.jpg"
-                alt="Sala de atendimento odontológico"
-                fill
-                sizes="(max-width: 768px) 100vw, 33vw"
-                className="object-cover object-top"
-              />
-            </MediaParallax>
-            <div className="absolute bottom-3 left-3 bg-[#2C2925]/90 backdrop-blur-sm text-paper font-body text-12 px-3 py-1 font-medium">
-              Consultório odontológico
-            </div>
-          </AnimateOnScroll>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {clinicPhotos.map((photo, index) => (
+            <AnimateOnScroll
+              key={photo.src}
+              animation={index === 0 ? 'fade-right' : 'zoom-in'}
+              duration={0.8}
+              delay={index === 0 ? 0 : Math.min((index % 3) * 0.1, 0.2)}
+              className={`relative aspect-[4/3] overflow-hidden border border-[#DED6C9] bg-[#DED6C9] shadow-sm ${index === 0 ? 'sm:col-span-2 sm:aspect-[16/8]' : ''}`}
+            >
+              <MediaParallax speed={0.05 + (index % 3) * 0.01} className="w-full h-full">
+                <Image
+                  src={photo.src}
+                  alt={photo.alt}
+                  fill
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  className="object-cover"
+                />
+              </MediaParallax>
+              <div className="absolute bottom-3 left-3 bg-[#2C2925]/90 backdrop-blur-sm text-paper font-body text-12 px-3 py-1 font-medium">
+                {photo.label}
+              </div>
+            </AnimateOnScroll>
+          ))}
         </div>
       </div>
     </section>

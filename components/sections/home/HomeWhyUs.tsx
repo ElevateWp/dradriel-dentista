@@ -34,7 +34,7 @@ export default function HomeWhyUs() {
                 Clinical Methodology
               </span>
               <h2 className="font-display text-26 sm:text-33 md:text-41 text-forest-ink mb-8 md:mb-10 leading-tight">
-                Por que escolher a Studio Oral Vitta
+                Por que escolher a Studio Dental Therapy
               </h2>
 
               <div className="divide-y divide-mist">
@@ -65,8 +65,8 @@ export default function HomeWhyUs() {
                 <div className="col-span-2 relative aspect-[16/10] bg-mist overflow-hidden border border-mist shadow-sm">
                   <MediaParallax speed={0.06} className="w-full h-full">
                     <Image
-                      src="/images/vitta-treatment-room.png"
-                      alt="Sala de tratamento odontológico da Studio Oral Vitta"
+                      src="/images/treatment-room.jpg"
+                      alt="Sala de tratamento odontológico"
                       fill
                       sizes="(max-width: 1024px) 100vw, 50vw"
                       className="object-cover"
@@ -79,8 +79,8 @@ export default function HomeWhyUs() {
                 {/* Second interior image */}
                 <div className="col-span-2 sm:col-span-1 relative aspect-square bg-mist overflow-hidden border border-mist shadow-sm">
                   <Image
-                    src="/images/vitta-brand-wall.jpg"
-                    alt="Placa Studio Oral Vitta na recepção"
+                    src="/images/clinic-reception.jpg"
+                    alt="Clinic entrance and reception seating"
                     fill
                     sizes="(max-width: 640px) 100vw, 25vw"
                     className="object-cover"
@@ -89,14 +89,14 @@ export default function HomeWhyUs() {
                 {/* Doctor portrait */}
                 <div className="col-span-2 sm:col-span-1 relative aspect-square bg-[#F1EEE8] overflow-hidden border border-mist shadow-sm">
                   <Image
-                    src="/images/dr-fernando.png"
-                    alt="Dr. Fernando"
+                    src="/images/dr-adriel-portrait.png"
+                    alt="Dr. Adriel Cavalcante at his clinic"
                     fill
                     sizes="(max-width: 640px) 100vw, 25vw"
                     className="object-cover object-top"
                   />
                   <div className="absolute bottom-0 left-0 right-0 bg-[#2C2925]/80 text-paper font-body text-12 px-3 py-2 text-center">
-                    Dr. Fernando
+                    Dr. Adriel Cavalcante
                   </div>
                 </div>
               </div>

@@ -4,17 +4,17 @@
 
 @layer base {
   :root {
-    --paper: #FAF9F6; /* Main Background */
-    --paper-secondary: #F1EEE8; /* Secondary Background */
-    --forest: #292722; /* Deep Sections */
-    --forest-ink: #2C2925; /* Main Text */
-    --secondary-text: #766E63; /* Secondary Text */
-    --primary-brand: #B59A6A; /* Primary Brand / CTA */
-    --brand-hover: #C9B486; /* Hover / Highlight */
-    --red-accent: #B59A6A; /* Primary Accent */
-    --soft-blue: #E4D7BC; /* Soft Gold */
-    --lime: #C9B486; /* Highlights */
-    --mist: #DED6C9; /* Borders */
+    --paper: #FFFFFF;
+    --paper-secondary: #F7F6F3;
+    --forest: #25272B;
+    --forest-ink: #202124;
+    --secondary-text: #777777;
+    --primary-brand: #C8B88E;
+    --brand-hover: #AD9565;
+    --red-accent: #C8B88E;
+    --soft-blue: #E8DFC9;
+    --lime: #C8B88E;
+    --mist: #E5E0D5;
     
     --font-display: "Instrument Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     --font-body: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
@@ -66,7 +66,7 @@
   textarea:focus-visible,
   summary:focus-visible,
   [tabindex]:focus-visible {
-    outline: 2px solid var(--forest);
+    outline: 2px solid var(--brand-hover);
     outline-offset: 3px;
   }
 
@@ -164,4 +164,106 @@
   .no-reduced-motion {
     display: none !important;
   }
+}
+
+[class~="bg-[#292722]"],
+[class~="bg-[#2C2925]"] {
+  background-color: #25272B !important;
+}
+
+[class~="bg-[#2C2925]/80"] {
+  background-color: rgb(37 39 43 / 0.8) !important;
+}
+
+[class~="bg-[#2C2925]/90"] {
+  background-color: rgb(37 39 43 / 0.9) !important;
+}
+
+[class~="bg-[#766E63]"] {
+  background-color: #777777 !important;
+}
+
+[class~="bg-[#B59A6A]"] {
+  background-color: #C8B88E !important;
+}
+
+[class~="bg-[#C9B486]"] {
+  background-color: #AD9565 !important;
+}
+
+[class~="bg-[#DED6C9]"] {
+  background-color: #E5E0D5 !important;
+}
+
+[class~="bg-[#F1EEE8]"] {
+  background-color: #F7F6F3 !important;
+}
+
+[class~="bg-[#F1EEE8]/40"] {
+  background-color: rgb(247 246 243 / 0.4) !important;
+}
+
+[class~="bg-[#F1EEE8]/50"] {
+  background-color: rgb(247 246 243 / 0.5) !important;
+}
+
+[class~="border-[#2C2925]"],
+[class~="border-[#DED6C9]"] {
+  border-color: #E5E0D5 !important;
+}
+
+[class~="border-[#C9B486]/40"] {
+  border-color: rgb(200 184 142 / 0.4) !important;
+}
+
+[class~="border-[#DED6C9]/80"] {
+  border-color: rgb(229 224 213 / 0.8) !important;
+}
+
+[class~="text-[#292722]"],
+[class~="text-[#2C2925]"] {
+  color: #202124 !important;
+}
+
+[class~="text-[#2C2925]/70"],
+[class~="text-[#2C2925]/80"],
+[class~="text-[#2C2925]/85"] {
+  color: #777777 !important;
+}
+
+[class~="text-[#766E63]"] {
+  color: #777777 !important;
+}
+
+[class~="text-[#B59A6A]"] {
+  color: #C8B88E !important;
+}
+
+[class~="text-[#C9B486]"] {
+  color: #AD9565 !important;
+}
+
+[class~="hover:bg-[#C9B486]"]:hover {
+  background-color: #AD9565 !important;
+}
+
+[class~="active:bg-[#B59A6A]"]:active {
+  background-color: #C8B88E !important;
+}
+
+[class~="hover:text-[#766E63]"]:hover,
+.group:hover [class~="group-hover:text-[#766E63]"] {
+  color: #AD9565 !important;
+}
+
+[class~="from-[#FAF9F6]/95"] {
+  --tw-gradient-from: rgb(255 255 255 / 0.95) var(--tw-gradient-from-position) !important;
+}
+
+[class~="to-[#FAF9F6]/78"] {
+  --tw-gradient-to: rgb(255 255 255 / 0.78) var(--tw-gradient-to-position) !important;
+}
+
+[class~="to-[#FAF9F6]/80"] {
+  --tw-gradient-to: rgb(255 255 255 / 0.8) var(--tw-gradient-to-position) !important;
 }

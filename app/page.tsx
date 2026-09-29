@@ -17,9 +17,9 @@ import { SERVICES } from '@/lib/clinic-data';
 import { createMetadata } from '@/lib/seo';
 
 export const metadata: Metadata = createMetadata({
-  title: 'Studio Oral Vitta | Clínica Odontológica em Rio Branco - AC',
+  title: 'Dr. Adriel Cavalcante | Studio Dental Therapy - Manaus',
   description:
-    'Studio Oral Vitta (5.0 ★ no Google Maps), clínica odontológica em Floresta, Rio Branco - AC.',
+    'Dr. Adriel Cavalcante, cirurgião oral em Manaus. Avaliação 5.0 com 43 avaliações no Google.',
   pathname: '/',
 });
 

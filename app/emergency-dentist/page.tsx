@@ -10,24 +10,24 @@ import AnimateOnScroll from '@/components/motion/AnimateOnScroll';
 import { createMetadata, generateFaqSchema } from '@/lib/seo';
 
 export const metadata: Metadata = createMetadata({
-  title: 'Atendimento Odontológico de Urgência em Manaus | Dr. Fernando',
+  title: 'Atendimento Odontológico de Urgência em Manaus | Dr. Adriel Cavalcante',
   description:
-    'Atendimento odontológico para dor de dente intensa, dente quebrado ou emergências em Manaus. WhatsApp/Telefone: +55 92 99265-6280.',
+    'Atendimento odontológico em Manaus. WhatsApp/Telefone: +55 92 98103-9300.',
   pathname: '/emergency-dentist/',
 });
 
 const EMERGENCY_FAQS = [
   {
     question: 'Como funciona o atendimento de urgência para dor de dente?',
-    answer: 'Pacientes com dor aguda, trauma ou inchaço são priorizados para atendimento rápido. Entre em contato pelo WhatsApp (+55 92 99265-6280) para orientação e agendamento.',
+    answer: 'Pacientes com dor aguda, trauma ou inchaço podem entrar em contato pelo WhatsApp (+55 92 98103-9300) para orientação e agendamento.',
   },
   {
     question: 'O consultório oferece atendimento domiciliar de urgência?',
-    answer: 'Sim, o Dr. Fernando realiza odontologia domiciliar para pacientes acamados ou com limitações de locomoção em Manaus.',
+    answer: 'Entre em contato com Dr. Adriel Cavalcante para confirmar a disponibilidade de atendimento.',
   },
   {
     question: 'O que fazer caso um dente quebre ou caia por trauma?',
-    answer: 'Segure o dente apenas pela coroa, nunca pela raiz. Guarde-o em leite ou saliva e venha imediatamente ao consultório ou entre em contato pelo nosso WhatsApp (+55 92 99265-6280).',
+    answer: 'Segure o dente apenas pela coroa, nunca pela raiz. Guarde-o em leite ou saliva e entre em contato pelo WhatsApp (+55 92 98103-9300).',
   },
 ];
 
@@ -377,7 +377,7 @@ export default function EmergencyDentistPage() {
             Do not endure severe dental pain.
           </h2>
           <p className="font-body text-15 md:text-17 text-paper/80 mb-8 max-w-xl">
-            Dr. Fernando is here to help relieve your pain and preserve your natural tooth structure.
+            Dr. Adriel Cavalcante is available for oral surgery consultations.
           </p>
           <Button
             href={`tel:${CLINIC_INFO.contact.emergencyPhone.replace(/[^0-9+]/g, '')}`}

@@ -111,8 +111,8 @@ export default function HomeHero() {
       className="relative min-h-[85vh] lg:min-h-[90vh] flex items-center bg-paper overflow-hidden py-12 sm:py-16 md:py-24"
     >
       <Image
-        src="/images/vitta-treatment-room.png"
-        alt="Sala de atendimento da Studio Oral Vitta"
+        src="/images/treatment-room.jpg"
+        alt="Dental treatment room at Studio Dental Therapy"
         fill
         priority
         sizes="100vw"
@@ -162,7 +162,7 @@ export default function HomeHero() {
               ref={paraRef}
               className="font-body text-15 sm:text-17 md:text-21 text-forest-ink/90 leading-relaxed mb-8 md:mb-10 max-w-2xl"
             >
-              Na Dental Studio, o Dr. Fernando oferece implantes de carga imediata, atendimento em odontologia domiciliar e aparelhos ortodônticos com cuidado e conforto.
+              Dr. Adriel Cavalcante é cirurgião oral na Studio Dental Therapy, em Manaus.
             </p>
 
             <div
@@ -173,7 +173,7 @@ export default function HomeHero() {
                 Agendar Consulta
               </Button>
               <Button
-                href={`https://api.whatsapp.com/send?phone=5568981081266`}
+                href={`https://api.whatsapp.com/send?phone=5592981039300`}
                 variant="ghost"
                 size="lg"
                 className="w-full sm:w-auto font-medium"
@@ -186,7 +186,7 @@ export default function HomeHero() {
               ref={locationRef}
               className="font-body text-13 text-[#2C2925]/70 flex flex-wrap items-center gap-2"
             >
-              <span className="font-medium text-[#2C2925]">Floresta</span>
+              <span className="font-medium text-[#2C2925]">Chapada, Manaus</span>
               <span className="hidden sm:inline">•</span>
               <span>{CLINIC_INFO.primaryLocation.street}, {CLINIC_INFO.primaryLocation.suite}</span>
               <span className="hidden sm:inline">•</span>
@@ -204,10 +204,10 @@ export default function HomeHero() {
                 Destaques Clínicos
               </span>
               <p className="font-body text-13 sm:text-15 text-[#2C2925]/90 leading-relaxed">
-                <strong className="text-[#2C2925] font-semibold">&ldquo;Studio Oral Vitta&rdquo;</strong> &mdash; Clínica odontológica em Floresta, Rio Branco, Acre.
+                <strong className="text-[#2C2925] font-semibold">Dr. Adriel Cavalcante</strong> &mdash; Cirurgião oral • Studio Dental Therapy
               </p>
               <div className="pt-3 border-t border-[#DED6C9] flex items-center justify-between text-13 font-body text-[#2C2925]/70">
-                <span>Rio Branco - AC</span>
+                <span>Manaus - AM</span>
                 <span className="text-[#2C2925] font-semibold">Avaliação 5.0 ★</span>
               </div>
             </div>

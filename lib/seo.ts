@@ -16,7 +16,7 @@ export function createMetadata({
 }): Metadata {
   const url = `${BASE_URL}${pathname}`;
   const fullTitle = `${title} | ${CLINIC_INFO.name}`;
-  const defaultImage = `${BASE_URL}/images/og-nova-dental.jpg`;
+  const defaultImage = `${BASE_URL}/images/clinic-exterior-manaus.jpg`;
 
   return {
     title: fullTitle,

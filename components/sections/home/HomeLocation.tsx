@@ -21,7 +21,7 @@ export default function HomeLocation() {
               Localização & Horário de Atendimento
             </span>
             <h2 className="font-display text-33 md:text-41 text-forest-ink">
-              Visite o Consultório em Rio Branco
+              Visite o Consultório em Manaus
             </h2>
           </div>
         </AnimateOnScroll>
@@ -105,14 +105,14 @@ export default function HomeLocation() {
             <AnimateOnScroll animation="fade-left" duration={0.85}>
               <div className="relative aspect-[16/10] bg-mist overflow-hidden border border-mist shadow-sm">
                 <Image
-                  src="/images/vitta-clinic-exterior.png"
-                  alt="Studio Oral Vitta - Clínica odontológica em Rio Branco"
+                  src="/images/logo.png"
+                  alt="Studio Dental Therapy, Manaus"
                   fill
                   sizes="(max-width: 1024px) 100vw, 50vw"
-                  className="object-cover"
+                  className="object-contain bg-white p-8"
                 />
                 <div className="absolute bottom-3 left-3 bg-paper/95 backdrop-blur-sm text-forest-ink font-body text-13 px-3 py-1 font-medium border border-mist/50">
-                  Studio Oral Vitta • Rio Branco
+                  Studio Dental Therapy • Manaus
                 </div>
               </div>
             </AnimateOnScroll>
@@ -124,15 +124,18 @@ export default function HomeLocation() {
                     Atendimento Odontológico de Excelência
                   </span>
                   <h3 className="font-display text-21 text-forest-ink mb-2">
-                    Clínica odontológica em Floresta
+                    Cirurgia oral em Manaus
                   </h3>
                   <p className="font-body text-13 text-forest-ink/80 mb-3 leading-relaxed">
-                    Studio Oral Vitta, na região de Floresta, em Rio Branco, Acre.
+                    Dr. Adriel Cavalcante, Studio Dental Therapy, Chapada, Manaus.
                   </p>
                   <div className="flex items-center gap-2 text-13 font-body text-forest">
                     <span className="w-2 h-2 rounded-full bg-forest animate-pulse" />
                     <span>WhatsApp / Telefone Direto: {CLINIC_INFO.contact.phone}</span>
                   </div>
+                  <p className="mt-3 font-body text-13 text-forest-ink/70">
+                    LGBTQ+ friendly · Identifies as women-owned
+                  </p>
                 </div>
 
                 <div className="pt-4 mt-4 border-t border-mist flex flex-wrap items-center justify-between gap-4">
